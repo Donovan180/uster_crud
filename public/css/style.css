@@ -1,0 +1,61 @@
+body{
+    background-color:#0d161c;
+}
+section{
+    padding-top:70px;
+    margin-bottom: 20px;
+}
+/* Estilos y color del menú*/
+.menu{
+    background-color:#1b2832;
+}
+.menu li{
+    list-style-type: none;
+    display:inline-block;
+    padding-top:20px;
+    margin-bottom:20px;
+}
+.menu li a{
+    padding: 20px 50px 20px 50px;
+    color: #fff;
+    text-decoration:none;
+}
+.menu li a:hover{
+    background-color:#fafafa;
+    transition: .4s;
+    color:#000;
+    border-radius:8px;
+}
+.card{
+    background-color:#1b2832;
+    color: #c6cdd2;
+    border-radius:8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:3%;
+}
+.card:hover{
+    transition:.6s;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+/* Estilos para el formulario y boton de agregar */
+.btn-dark{
+    margin-bottom: 20px;
+}
+
+.form-edit{
+    background-color: #1b2832;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:3%;
+    border-radius: 8px;
+}
+label{
+    color: #fafafa;
+}
+h3{
+    background-color: #1b2832;
+    text-align: center;
+    color: #fafafa;
+    padding:1%;
+    border-radius: 8px;
+}
