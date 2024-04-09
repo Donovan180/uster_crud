@@ -33,8 +33,8 @@ $ composer install
 4. Copia el archivo de configuración .env.example y renómbralo a .env:
 $ cp .env.example .env
 
-5. Configura tu base de datos en el archivo .env (Importante antes debiste haber importado 
-la base de datos que viene dentro del proyecto, en el gestor de bd que en este caso es MySql):
+5. Configura tu base de datos en el archivo .env (Importante antes debiste haber importado en mysql
+la base de datos que esta nombrada como uster_bd, viene dentro del proyecto):
 
  DB_CONNECTION=mysql
  DB_HOST=127.0.0.1
