@@ -27,13 +27,14 @@ Introducción acerca de la instalación.
 1. Clona el repositorio en tu máquina local:
 $ git clone https://github.com/Donovan180/reserva-vehiculos.git
 
+
 2. Instala las dependencias de PHP utilizando Composer:
 $ composer install
 
-4. Copia el archivo de configuración .env.example y renómbralo a .env:
+3. Renómbra el archivo de configuración .env.example a .env:
 $ cp .env.example .env
 
-5. Configura tu base de datos en el archivo .env (Importante antes debiste haber importado en mysql
+4. Configura tu base de datos en el archivo .env (Importante antes debiste haber importado en mysql
 la base de datos que esta nombrada como uster_bd, viene dentro del proyecto):
 
  DB_CONNECTION=mysql
@@ -42,6 +43,9 @@ la base de datos que esta nombrada como uster_bd, viene dentro del proyecto):
  DB_DATABASE=uster_bd
  DB_USERNAME=root
  DB_PASSWORD=
+
+5. Generar una nueva clave de cifrado utilizando:
+$ php artisan key:generate
 
 6. Inicia el servidor de desarrollo, este comando te generara un link donde solo tendras que copiar y pegar en tu
 navegador para poder ejecutar la aplicación:
