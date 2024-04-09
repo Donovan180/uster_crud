@@ -30,7 +30,10 @@ $ git clone https://github.com/Donovan180/reserva-vehiculos.git
 2. Instala las dependencias de PHP utilizando Composer:
 $ composer install
 
-3. Configura tu base de datos en el archivo .env (Importante antes debiste haber importado 
+4. Copia el archivo de configuración .env.example y renómbralo a .env:
+$ cp .env.example .env
+
+5. Configura tu base de datos en el archivo .env (Importante antes debiste haber importado 
 la base de datos que viene dentro del proyecto, en el gestor de bd que en este caso es MySql):
 
  DB_CONNECTION=mysql
@@ -40,7 +43,7 @@ la base de datos que viene dentro del proyecto, en el gestor de bd que en este c
  DB_USERNAME=root
  DB_PASSWORD=
 
-3. Inicia el servidor de desarrollo, este comando te generara un link donde solo tendras que copiar y pegar en tu
+6. Inicia el servidor de desarrollo, este comando te generara un link donde solo tendras que copiar y pegar en tu
 navegador para poder ejecutar la aplicación:
 $  php artisan serve
 
